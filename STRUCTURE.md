@@ -58,17 +58,6 @@ payment_service/
 │   └── 📁 versions/                # Версии миграций
 │       └── 001_initial_migration.py
 │
-├── 📁 tests/                       # 🧪 ТЕСТИРОВАНИЕ
-│   ├── __init__.py
-│   ├── conftest.py                 # pytest конфигурация и fixtures
-│   ├── test_order.py               # Тесты Order модели (5 тестов)
-│   ├── test_payment.py             # Тесты Payment модели (6 тестов)
-│   ├── test_api_endpoints.py       # Тесты API endpoints
-│   ├── test_bank_api.py            # Тесты BankAPIClient
-│   ├── test_bank_sync.py           # Тесты BankSyncService
-│   ├── test_error_handling.py      # Тесты обработки ошибок
-│   └── test_error_handling_clean.py
-│
 ├── 📁 __pycache__/                 # (игнорируется Git)
 ├── 📁 .pytest_cache/               # (игнорируется Git)
 │
